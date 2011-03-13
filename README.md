@@ -36,7 +36,7 @@ Now just call your to\_api method. You'll get back a hash of arrays, hashes, str
 
 The gem provides to\_api for common Ruby classes, allowing simple conversion to json, xml, yaml, etc. Hash and Enumerable transform all their contents, allowing your data objects to simply call to\_api on a hash of relevant attributes.
 
-Fixnum, String, DateTime, Symbol, and NilClass are also provided.
+Fixnum, String, DateTime, Symbol, TrueClass, FalseClass and NilClass are also provided.
 
 ### What about Ruby on Rails?
 
